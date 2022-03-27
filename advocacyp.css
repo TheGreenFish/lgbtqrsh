@@ -1,0 +1,54 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/190606171127-pride-flag-style-animation-1.jpg");
+    height: 600px;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: solid;
+}
+
+
+.navbox{
+    background-color: beige;
+    height: 60px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: beige;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(245, 245, 220);
+}
+.nav ul li a:hover{
+    background-image: linear-gradient(to bottom right, rgb(235, 207, 163), rgb(231, 136, 93));
+}
+
+.basicInfo{
+    margin-top: 10px;
+    background-color: bisque;
+
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+}
+
+.basicInfo h2{
+    font-size: xx-large;
+}
